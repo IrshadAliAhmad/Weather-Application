@@ -1,8 +1,7 @@
 version: "3.8"
 services:
   web:
-    build: .
-    container_name: weather-application
+    image: "iirshad/weather-app:latest"
     ports:
       - "8080:80"
     restart: unless-stopped
